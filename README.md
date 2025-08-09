@@ -4,9 +4,10 @@ A collection of data analysis scripts using MapReduce patterns to analyze sales 
 
 ## Installation
 
-Install the required dependencies:
+Navigate to the JavaScript_MapReduce directory and install the required dependencies:
 
 ```bash
+cd JavaScript_MapReduce
 npm install
 ```
 
@@ -37,17 +38,23 @@ Tracks sales trends over time by aggregating data by year and month.
 
 ```
 .
+├── .gitignore
 ├── README.md
-├── package.json
-├── package-lock.json
 ├── dataset.csv
-├── debug.js
-├── top_selling_products.js
-├── total_sales_by_supplier.js
-├── most_popular_product_type.js
-├── low_selling_products.js
-├── retail_vs_warehouse_split.js
-├── monthly_sales_trends.js
+├── JavaScript_MapReduce/
+│   ├── dataset.csv
+│   ├── debug.js
+│   ├── low_selling_products.js
+│   ├── monthly_sales_trends.js
+│   ├── most_popular_product_type.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── retail_vs_warehouse_split.js
+│   ├── top_selling_products.js
+│   └── total_sales_by_supplier.js
+├── Python_MapReduce/
+│   ├── BigData_MapReduce_Python.ipynb
+│   └── Warehouse_and_Retail_Sales.csv
 └── node_modules/
 ```
 
