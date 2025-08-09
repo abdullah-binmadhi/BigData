@@ -16,9 +16,6 @@ npm install
 ### debug.js
 Tests the CSV parser and provides basic dataset information including row count and item types.
 
-### top_selling_products.js
-Identifies the top-selling products by analyzing total sales (retail + warehouse) for each item code.
-
 ### total_sales_by_supplier.js
 Calculates total sales figures grouped by supplier using MapReduce aggregation.
 
@@ -50,7 +47,6 @@ Tracks sales trends over time by aggregating data by year and month.
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── retail_vs_warehouse_split.js
-│   ├── top_selling_products.js
 │   └── total_sales_by_supplier.js
 ├── Python_MapReduce/
 │   ├── BigData_MapReduce_Python.ipynb
