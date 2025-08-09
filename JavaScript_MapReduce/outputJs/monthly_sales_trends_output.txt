@@ -1,0 +1,63 @@
+Starting MapReduce analysis for Monthly Sales Trends...
+
+Dataset loaded successfully
+Total records: 128355
+
+Executing Map phase...
+Processed 10000 records
+Processed 20000 records
+Processed 30000 records
+Processed 40000 records
+Processed 50000 records
+Processed 60000 records
+Processed 70000 records
+Processed 80000 records
+Processed 90000 records
+Processed 100000 records
+Processed 110000 records
+Processed 120000 records
+Map phase completed. Unique months found: 10
+
+Executing Reduce phase...
+Reduce phase completed
+
+=== MONTHLY SALES TRENDS ===
+Month    | Total Sales    | Transactions | Avg Sale | Growth
+---------|----------------|--------------|----------|--------
+2017-Apr | $7.00          | 2            | $3.50    | N/A
+2017-May | $462068.26     | 13127        | $35.20   | +6600875.1%
+2017-Jun | $483237.09     | 13420        | $36.01   | +4.6%
+2017-Aug | $475957.75     | 13388        | $35.55   | -1.5%
+2017-Sep | $402001.68     | 13144        | $30.58   | -15.5%
+2017-Oct | $400924.48     | 13382        | $29.96   | -0.3%
+2017-Nov | $445393.95     | 14338        | $31.06   | +11.1%
+2017-Dec | $445332.78     | 14330        | $31.08   | -0.0%
+2018-Jan | $336052.76     | 13068        | $25.72   | -24.5%
+2018-Feb | $347707.91     | 12896        | $26.96   | +3.5%
+
+=== FORMATTED OUTPUT ===
+2017-04 → 7 units
+2017-05 → 462,068 units
+2017-06 → 483,237 units
+2017-08 → 475,958 units
+2017-09 → 402,002 units
+2017-10 → 400,924 units
+2017-11 → 445,394 units
+2017-12 → 445,333 units
+2018-01 → 336,053 units
+2018-02 → 347,708 units
+
+=== SUMMARY STATISTICS ===
+Total months analyzed: 10
+Total revenue across all months: $3798683.66
+Average monthly revenue: $379868.37
+Total transactions: 121,095
+
+🏆 Best month: 2017-06 with $483237.09
+📉 Worst month: 2017-04 with $7.00
+
+=== SEASONAL ANALYSIS ===
+Fall: $1248320.11 total, $416106.70 avg/month
+Winter: $1129093.45 total, $376364.48 avg/month
+Summer: $959194.84 total, $479597.42 avg/month
+Spring: $462075.26 total, $231037.63 avg/month

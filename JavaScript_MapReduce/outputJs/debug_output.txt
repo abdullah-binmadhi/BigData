@@ -1,0 +1,47 @@
+Debug script starting...
+🚀 Testing CSV parser...
+Row 1: {
+  YEAR: '2017',
+  MONTH: '4',
+  SUPPLIER: 'ROYAL WINE CORP',
+  'ITEM CODE': '100200',
+  'ITEM DESCRIPTION': 'GAMLA CAB - 750ML',
+  'ITEM TYPE': 'WINE',
+  'RETAIL SALES': '0.00',
+  'RETAIL TRANSFERS': '1.00',
+  'WAREHOUSE SALES': '0.00'
+}
+Row 2: {
+  YEAR: '2017',
+  MONTH: '4',
+  SUPPLIER: 'SANTA MARGHERITA USA INC',
+  'ITEM CODE': '100749',
+  'ITEM DESCRIPTION': 'SANTA MARGHERITA P/GRIG ALTO - 375ML',
+  'ITEM TYPE': 'WINE',
+  'RETAIL SALES': '0.00',
+  'RETAIL TRANSFERS': '1.00',
+  'WAREHOUSE SALES': '0.00'
+}
+Row 3: {
+  YEAR: '2017',
+  MONTH: '4',
+  SUPPLIER: 'JIM BEAM BRANDS CO',
+  'ITEM CODE': '10103',
+  'ITEM DESCRIPTION': 'KNOB CREEK BOURBON 9YR - 100P - 375ML',
+  'ITEM TYPE': 'LIQUOR',
+  'RETAIL SALES': '0.00',
+  'RETAIL TRANSFERS': '8.00',
+  'WAREHOUSE SALES': '0.00'
+}
+✅ Processed 128355 rows
+📊 Item types found: [
+  'WINE',
+  'LIQUOR',
+  'BEER',
+  'STR_SUPPLIES',
+  'REF',
+  'NON-ALCOHOL',
+  'KEGS',
+  'DUNNAGE'
+]
+Debug script completed.

@@ -1,0 +1,99 @@
+Starting MapReduce analysis for Low-Selling Products (threshold: $100)...
+
+Dataset loaded successfully
+Total records: 128355
+
+Executing Map phase...
+Processed 10000 records
+Processed 20000 records
+Processed 30000 records
+Processed 40000 records
+Processed 50000 records
+Processed 60000 records
+Processed 70000 records
+Processed 80000 records
+Processed 90000 records
+Processed 100000 records
+Processed 110000 records
+Processed 120000 records
+Map phase completed. Unique products found: 23555
+
+Executing Reduce phase...
+Reduce phase completed
+
+=== LOW-SELLING PRODUCTS (< $100) ===
+Found 20312 products that need marketing attention
+
+Rank | Item Code | Total Sales | Transactions | Item Type | Description
+-----|-----------|-------------|--------------|-----------|-------------
+   1 | 175       | $-34514.00  | 0            | DUNNAGE   | EMPTY 1/2 KEG (30.00)
+   2 | 205       | $-8248.00   | 0            | DUNNAGE   | EMPTY 1/6 KEG (30.00)
+   3 | BC        | $-6022.00   | 0            | REF       | BEER CREDIT
+   4 | 264       | $-2513.00   | 0            | DUNNAGE   | EMPTY 1/4 KEG (30.00)
+   5 | WC        | $-732.00    | 0            | REF       | WINE CREDIT
+   6 | 1279      | $-56.00     | 0            | DUNNAGE   | EMPTY WINE KEG - KEGS
+   7 | 31157     | $-2.00      | 1            | KEGS      | DOGFISH HEAD FALL ON ME 1/2KG
+   8 | 12488     | $-1.00      | 1            | BEER      | SOUTHERN TIER 3 CITRUS PEEL OUT - 6/4 12.OZ
+   9 | 312627    | $-1.00      | 0            | WINE      | TWO OCEANS SHZ                 26936 - 750ML
+  10 | 323894    | $-1.00      | 0            | WINE      | DEDICATO EX/DRY PROSECCO - 750ML
+  11 | 346644    | $-1.00      | 0            | WINE      | FUSE CAB 13 - 750ML
+  12 | 25942     | $-1.00      | 0            | KEGS      | REDHOOK BLACKHOOK 1/6TH KEG
+  13 | 27347     | $-1.00      | 0            | KEGS      | PORT CITY COLOSSAL ONE - 1/6K
+  14 | 28780     | $-1.00      | 0            | KEGS      | FLYING DOG NITRO CP COFFEE PORTER 1/2KG
+  15 | 31096     | $-1.00      | 0            | KEGS      | YUENGLING IPL 1/2 KEG
+  16 | 311046    | $-1.00      | 0            | LIQUOR    | BOZAL MEZCAL TOBASICHE SINGLE MAGUEY - 750ML
+  17 | 311048    | $-1.00      | 0            | LIQUOR    | BOZAL MEZCAL ENSAMBLE - 750ML
+  18 | 12824     | $-1.00      | 0            | KEGS      | UNION SOUL CLAP 1/2K
+  19 | 340897    | $-1.00      | 0            | WINE      | AUBERT HYDE CHARD 14 - 750ML
+  20 | 165450    | $-0.25      | 0            | WINE      | MARCHESI DI BAROLO BAROLO      31343 - 750ML
+... and 20292 more products
+
+🚨 CRITICAL: 274 products with ZERO sales need immediate attention!
+
+=== LOW-SELLING PRODUCTS BY CATEGORY ===
+WINE: 13744 products, avg $12.37 sales
+LIQUOR: 2920 products, avg $19.94 sales
+BEER: 2256 products, avg $16.63 sales
+KEGS: 1301 products, avg $7.42 sales
+NON-ALCOHOL: 58 products, avg $23.50 sales
+STR_SUPPLIES: 13 products, avg $3.49 sales
+REF: 7 products, avg $-947.57 sales
+DUNNAGE: 4 products, avg $-11332.75 sales
+ BODEGA ALVAREZ DIEZ - 750ML": 1 products, avg $0.00 sales
+ JOSEPH PERRIER - 750ML": 1 products, avg $0.00 sales
+ REPOSADO: 1 products, avg $0.17 sales
+ MARTINBOROUGH - 750ML": 1 products, avg $1.00 sales
+Unknown: 1 products, avg $1.00 sales
+00: 1 products, avg $14.00 sales
+GARY FARRELL R/R P/NOIR - 750ML: 1 products, avg $19.84 sales
+10: 1 products, avg $22.00 sales
+LUNA NUDA P/GRIG - 750ML: 1 products, avg $33.00 sales
+
+=== SUPPLIERS WITH MOST LOW-SELLING PRODUCTS ===
+1. REPUBLIC NATIONAL DISTRIBUTING CO: 1798 low-selling products, avg $11.56
+2. A VINTNERS SELECTIONS: 1776 low-selling products, avg $10.42
+3. LEGENDS LTD: 1574 low-selling products, avg $11.73
+4. MONSIEUR TOUTON SELECTION: 996 low-selling products, avg $9.03
+5. BACCHUS IMPORTERS LTD: 810 low-selling products, avg $10.96
+6. SOUTHERN GLAZERS WINE AND SPIRITS: 733 low-selling products, avg $15.30
+7. DOPS INC: 595 low-selling products, avg $10.78
+8. CONSTANTINE WINES INC: 486 low-selling products, avg $9.29
+9. OPICI FAMILY DISTRIBUTING OF MD: 441 low-selling products, avg $9.72
+10. PUNTO VINO LLC: 418 low-selling products, avg $10.20
+
+=== MARKETING RECOMMENDATIONS ===
+🎯 IMMEDIATE ACTION NEEDED:
+   • 274 products with zero sales - consider discontinuation or aggressive promotion
+   • 12908 products with sales < $10 - urgent marketing push needed
+   • 7107 products with moderate low sales - targeted campaigns recommended
+
+📊 STRATEGIC INSIGHTS:
+   • 86.2% of products are underperforming
+   • Low-selling products represent 6.01% of total revenue
+
+=== PRODUCTS THAT NEED A MARKETING PUSH ===
+20312 products identified for marketing intervention:
+🔴 URGENT (274): Zero sales products
+🟠 HIGH (15708): Very low sales (< $20)
+🟡 MEDIUM (3193): Low sales ($20 - $60)
+🟢 LOW (1114): Below threshold but showing activity ($60 - $100)

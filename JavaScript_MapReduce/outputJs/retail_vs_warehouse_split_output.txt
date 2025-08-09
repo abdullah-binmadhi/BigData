@@ -1,0 +1,47 @@
+Starting MapReduce analysis for Retail vs Warehouse Sales Split...
+
+Dataset loaded successfully
+Total records: 128355
+
+Executing Map phase...
+Processed 10000 records
+Processed 20000 records
+Processed 30000 records
+Processed 40000 records
+Processed 50000 records
+Processed 60000 records
+Processed 70000 records
+Processed 80000 records
+Processed 90000 records
+Processed 100000 records
+Processed 110000 records
+Processed 120000 records
+Map phase completed. Sales channels found: 2
+
+Executing Reduce phase...
+Reduce phase completed
+
+=== RETAIL VS WAREHOUSE SALES SPLIT ===
+Channel   | Total Sales    | Transactions | Avg Sale   | Market Share
+----------|----------------|--------------|------------|-------------
+warehouse | $2956342.70    | 78413        | $37.70     | 77.8%
+retail    | $842410.77     | 79091        | $10.65     | 22.2%
+
+=== FORMATTED OUTPUT ===
+Retail = 842,411 units
+Warehouse = 2,956,343 units
+
+=== DETAILED ANALYSIS ===
+Total combined revenue: $3798753.47
+Total combined transactions: 157,504
+Overall average sale: $24.12
+
+=== COMPARATIVE INSIGHTS ===
+Retail dominance: NO (22.2% vs 77.8%)
+Retail avg sale vs Warehouse: $10.65 vs $37.70
+Transaction distribution: Retail 50.2%, Warehouse 49.8%
+More efficient channel: Warehouse (27.05 higher avg sale)
+
+=== BUSINESS INSIGHTS ===
+📊 Wholesale-dominant business model - focus on B2B sales
+💰 Warehouse sales involve larger volume transactions

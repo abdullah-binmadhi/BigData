@@ -1,0 +1,26 @@
+Starting MapReduce analysis for Top Selling Products...
+
+Dataset loaded successfully
+Total records: 128355
+
+Executing Map phase...
+Processed 10000 records
+Processed 20000 records
+Processed 30000 records
+Processed 40000 records
+Processed 50000 records
+Processed 60000 records
+Processed 70000 records
+Processed 80000 records
+Processed 90000 records
+Processed 100000 records
+Processed 110000 records
+Processed 120000 records
+Map phase completed. Unique items found: 23287
+
+Executing Reduce phase...
+Reduce phase completed
+
+=== TOP 10 SELLING PRODUCTS ===
+Rank | Item Code | Total Sales (Retail + Warehouse)
+-----|-----------|--------------------------------

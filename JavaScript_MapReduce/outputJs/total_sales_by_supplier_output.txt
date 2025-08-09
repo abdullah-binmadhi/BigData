@@ -1,0 +1,60 @@
+Starting MapReduce analysis for Total Sales by Supplier...
+
+Dataset loaded successfully
+Total records: 128355
+
+Executing Map phase...
+Processed 10000 records
+Processed 20000 records
+Processed 30000 records
+Processed 40000 records
+Processed 50000 records
+Processed 60000 records
+Processed 70000 records
+Processed 80000 records
+Processed 90000 records
+Processed 100000 records
+Processed 110000 records
+Processed 120000 records
+Map phase completed. Unique suppliers found: 328
+
+Executing Reduce phase...
+Reduce phase completed
+
+=== TOP SUPPLIERS BY TOTAL SALES ===
+Rank | Supplier Name                           | Total Sales
+-----|----------------------------------------|-------------
+   1 | MILLER BREWING COMPANY                  | $607658.04
+   2 | CROWN IMPORTS                           | $606532.53
+   3 | ANHEUSER BUSCH INC                      | $581698.41
+   4 | HEINEKEN USA                            | $339735.76
+   5 | E & J GALLO WINERY                      | $143051.28
+   6 | DIAGEO NORTH AMERICA INC                | $111912.32
+   7 | CONSTELLATION BRANDS                    | $99441.27
+   8 | BOSTON BEER CORPORATION                 | $64208.16
+   9 | YUENGLING BREWERY                       | $63434.67
+  10 | FLYING DOG BREWERY LLLP                 | $57530.30
+  11 | PABST BREWING CO                        | $54146.02
+  12 | THE WINE GROUP                          | $52363.25
+  13 | JIM BEAM BRANDS CO                      | $42085.26
+  14 | REPUBLIC NATIONAL DISTRIBUTING CO       | $40912.08
+  15 | LEGENDS LTD                             | $39771.81
+
+=== FORMATTED OUTPUT ===
+MILLER BREWING COMPANY → 607,658 units
+CROWN IMPORTS → 606,533 units
+ANHEUSER BUSCH INC → 581,698 units
+HEINEKEN USA → 339,736 units
+E & J GALLO WINERY → 143,051 units
+DIAGEO NORTH AMERICA INC → 111,912 units
+CONSTELLATION BRANDS → 99,441 units
+BOSTON BEER CORPORATION → 64,208 units
+YUENGLING BREWERY → 63,435 units
+FLYING DOG BREWERY LLLP → 57,530 units
+
+=== SUMMARY STATISTICS ===
+Total suppliers: 328
+Total revenue across all suppliers: $3798683.66
+Average sales per supplier: $11581.35
+Top 10 suppliers contribute: 70.42% of total revenue
+Top 5 suppliers contribute: 59.99% of total revenue

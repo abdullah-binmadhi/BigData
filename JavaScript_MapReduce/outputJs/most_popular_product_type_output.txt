@@ -1,0 +1,80 @@
+Starting MapReduce analysis for Most Popular Product Type...
+
+Dataset loaded successfully
+Total records: 128355
+
+Executing Map phase...
+Processed 10000 records
+Processed 20000 records
+Processed 30000 records
+Processed 40000 records
+Processed 50000 records
+Processed 60000 records
+Processed 70000 records
+Processed 80000 records
+Processed 90000 records
+Processed 100000 records
+Processed 110000 records
+Processed 120000 records
+Map phase completed. Unique item types found: 14
+
+Executing Reduce phase...
+Reduce phase completed
+
+=== PRODUCT TYPES BY TOTAL SALES ===
+Rank | Item Type      | Total Sales    | Transactions | Avg Sale
+-----|----------------|----------------|--------------|----------
+   1 | BEER           | $2647471.68    | 15671        | $168.94
+   2 | WINE           | $746422.77     | 74959        | $9.96
+   3 | LIQUOR         | $343038.19     | 26248        | $13.07
+   4 | KEGS           | $43616.00      | 3549         | $12.29
+   5 | NON-ALCOHOL    | $16766.69      | 570          | $29.42
+   6 | STR_SUPPLIES   | $995.98        | 46           | $21.65
+   7 | REF            | $281.34        | 33           | $8.53
+   8 | LUNA NUDA P/GRIG - 750ML | $33.00         | 2            | $16.50
+   9 | 10             | $22.00         | 2            | $11.00
+  10 | 00             | $14.00         | 2            | $7.00
+  11 | GARY FARRELL R/R P/NOIR - 750ML | $10.92         | 6            | $1.82
+  12 | GARY FARRELL R/R CHARD - 750ML | $8.92          | 4            | $2.23
+  13 |  MARTINBOROUGH - 750ML" | $1.00          | 1            | $1.00
+  14 |  REPOSADO      | $0.17          | 1            | $0.17
+
+=== FORMATTED OUTPUT ===
+BEER → 2,647,472 units
+WINE → 746,423 units
+LIQUOR → 343,038 units
+KEGS → 43,616 units
+NON-ALCOHOL → 16,767 units
+STR_SUPPLIES → 996 units
+REF → 281 units
+LUNA NUDA P/GRIG - 750ML → 33 units
+10 → 22 units
+00 → 14 units
+GARY FARRELL R/R P/NOIR - 750ML → 11 units
+GARY FARRELL R/R CHARD - 750ML → 9 units
+ MARTINBOROUGH - 750ML" → 1 units
+ REPOSADO → 0 units
+
+=== SUMMARY STATISTICS ===
+Total product types: 14
+Total revenue across all types: $3798682.66
+Total transactions: 121,094
+Overall average sale: $31.37
+
+=== MARKET SHARE ANALYSIS ===
+BEER: 69.7% of revenue, 12.9% of transactions
+WINE: 19.6% of revenue, 61.9% of transactions
+LIQUOR: 9.0% of revenue, 21.7% of transactions
+KEGS: 1.1% of revenue, 2.9% of transactions
+NON-ALCOHOL: 0.4% of revenue, 0.5% of transactions
+STR_SUPPLIES: 0.0% of revenue, 0.0% of transactions
+REF: 0.0% of revenue, 0.0% of transactions
+LUNA NUDA P/GRIG - 750ML: 0.0% of revenue, 0.0% of transactions
+10: 0.0% of revenue, 0.0% of transactions
+00: 0.0% of revenue, 0.0% of transactions
+GARY FARRELL R/R P/NOIR - 750ML: 0.0% of revenue, 0.0% of transactions
+GARY FARRELL R/R CHARD - 750ML: 0.0% of revenue, 0.0% of transactions
+ MARTINBOROUGH - 750ML": 0.0% of revenue, 0.0% of transactions
+ REPOSADO: 0.0% of revenue, 0.0% of transactions
+
+🏆 WINNER: BEER is the most popular product type with 2,647,472 units sold!
