@@ -1,5 +1,5 @@
 Debug script starting...
-🚀 Testing CSV parser...
+Testing CSV parser...
 Row 1: {
   YEAR: '2017',
   MONTH: '4',
@@ -33,8 +33,8 @@ Row 3: {
   'RETAIL TRANSFERS': '8.00',
   'WAREHOUSE SALES': '0.00'
 }
-✅ Processed 128355 rows
-📊 Item types found: [
+Processed 128355 rows
+Item types found: [
   'WINE',
   'LIQUOR',
   'BEER',
