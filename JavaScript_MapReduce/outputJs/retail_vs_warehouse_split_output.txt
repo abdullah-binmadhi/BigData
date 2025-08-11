@@ -43,5 +43,5 @@ Transaction distribution: Retail 50.2%, Warehouse 49.8%
 More efficient channel: Warehouse (27.05 higher avg sale)
 
 === BUSINESS INSIGHTS ===
-📊 Wholesale-dominant business model - focus on B2B sales
-💰 Warehouse sales involve larger volume transactions
+ Wholesale-dominant business model - focus on B2B sales
+ Warehouse sales involve larger volume transactions

@@ -77,4 +77,4 @@ GARY FARRELL R/R CHARD - 750ML: 0.0% of revenue, 0.0% of transactions
  MARTINBOROUGH - 750ML": 0.0% of revenue, 0.0% of transactions
  REPOSADO: 0.0% of revenue, 0.0% of transactions
 
-🏆 WINNER: BEER is the most popular product type with 2,647,472 units sold!
+ WINNER: BEER is the most popular product type with 2,647,472 units sold!

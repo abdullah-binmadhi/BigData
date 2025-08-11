@@ -48,7 +48,7 @@ Rank | Item Code | Total Sales | Transactions | Item Type | Description
   20 | 165450    | $-0.25      | 0            | WINE      | MARCHESI DI BAROLO BAROLO      31343 - 750ML
 ... and 20292 more products
 
-🚨 CRITICAL: 274 products with ZERO sales need immediate attention!
+ CRITICAL: 274 products with ZERO sales need immediate attention!
 
 === LOW-SELLING PRODUCTS BY CATEGORY ===
 WINE: 13744 products, avg $12.37 sales
@@ -82,18 +82,18 @@ LUNA NUDA P/GRIG - 750ML: 1 products, avg $33.00 sales
 10. PUNTO VINO LLC: 418 low-selling products, avg $10.20
 
 === MARKETING RECOMMENDATIONS ===
-🎯 IMMEDIATE ACTION NEEDED:
+ IMMEDIATE ACTION NEEDED:
    • 274 products with zero sales - consider discontinuation or aggressive promotion
    • 12908 products with sales < $10 - urgent marketing push needed
    • 7107 products with moderate low sales - targeted campaigns recommended
 
-📊 STRATEGIC INSIGHTS:
+ STRATEGIC INSIGHTS:
    • 86.2% of products are underperforming
    • Low-selling products represent 6.01% of total revenue
 
 === PRODUCTS THAT NEED A MARKETING PUSH ===
 20312 products identified for marketing intervention:
-🔴 URGENT (274): Zero sales products
-🟠 HIGH (15708): Very low sales (< $20)
-🟡 MEDIUM (3193): Low sales ($20 - $60)
-🟢 LOW (1114): Below threshold but showing activity ($60 - $100)
+ URGENT (274): Zero sales products
+ HIGH (15708): Very low sales (< $20)
+ MEDIUM (3193): Low sales ($20 - $60)
+ LOW (1114): Below threshold but showing activity ($60 - $100)

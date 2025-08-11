@@ -53,8 +53,8 @@ Total revenue across all months: $3798683.66
 Average monthly revenue: $379868.37
 Total transactions: 121,095
 
-🏆 Best month: 2017-06 with $483237.09
-📉 Worst month: 2017-04 with $7.00
+ Best month: 2017-06 with $483237.09
+ Worst month: 2017-04 with $7.00
 
 === SEASONAL ANALYSIS ===
 Fall: $1248320.11 total, $416106.70 avg/month
